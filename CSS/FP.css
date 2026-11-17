@@ -1,5 +1,5 @@
 body    {  
-    background-image: url("/GIF_BG/Snow\ Winter\ GIF.gif");
+    background-image: url("../GIF_BG/Snow\ Winter\ GIF.gif");
     background-size:cover;
 }
 .box {
