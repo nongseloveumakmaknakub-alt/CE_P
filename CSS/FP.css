@@ -21,7 +21,6 @@ body    {
     border: 1px solid rgba(5, 0, 0, 0.753); 
     box-shadow: 0 8px 32px rgb(1, 141, 255),
     inset 0 4px 20px rgb(255, 255, 255);
-     
 }
 .info {
   display: flex;
@@ -91,3 +90,27 @@ h3 {
     transition-timing-function: case;
     -o-transition-delay: 0s;   
 }
+.More {
+    border-radius: 5px;
+    margin-top: 20px ;
+    height: 150px;
+    background-color:white;
+        position: relative;
+    padding: 5px 16px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.973);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px) saturate(180%);
+    box-shadow:
+    inset -4px -4px 10px rgba(244, 244, 244, 0.6),
+    inset 4px 4px 10px rgba(0, 0, 0, 0.2),
+    0px 8px 20px rgba(31, 38, 135, 0.3);
+    cursor: pointer;
+    overflow: hidden;
+}
+.LL {
+    font-family: cursive;
+}   

@@ -108,3 +108,8 @@
     0px 8px 20px rgba(31, 38, 135, 0.3);
     overflow: hidden;
 }
+p {
+    text-align: center;
+    font-family: cursive;
+    font-size: 45px;
+}

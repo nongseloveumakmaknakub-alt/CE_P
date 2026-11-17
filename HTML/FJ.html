@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/SP.css">
+    <link rel="stylesheet" href="./CSS/SP.css">
     <title>Document</title>
 </head>
 <body>
@@ -60,12 +60,14 @@
             <button class="BT">
                 <a href="/INDEX.html" target="_blank" style="color: aliceblue;">Back To Profile</a>
             </button>
-            <h1 class="text2">รักแว่น ไม่ทิ้งหมวย ไม่ห่างเหวี่ยง</h1>        
+            <p id="p1" class="text2">รักแว่น ไม่ทิ้งหมวย ไม่ห่างเหวี่ยง </p>        
         </div>
     </div>
 
     <div class="LAST">
        <h1 class="TT">Tanakorn Jumpapho</h1>
          </div>
+         <input type="button" value="Hide text" onclick="document.getElementById('p1').style.visibility='hidden'">
+<input type="button" value="Show text" onclick="document.getElementById('p1').style.visibility='visible'">
 </body>
 </html>
