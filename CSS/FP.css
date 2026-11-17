@@ -1,0 +1,93 @@
+body    {  
+    background-image: url("/GIF_BG/Snow\ Winter\ GIF.gif");
+    background-size:cover;
+}
+.box {
+  font-size: 67px;
+  border: 3px solid #333;
+  padding: 8px 12px;
+  display: inline-block;
+  background-color: #f0f0f0; 
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+  border-radius: 7px;
+  width: 33%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(229, 253, 254, 0.475);
+    backdrop-filter: blur(10px) saturate(180%); 
+    border: 1px solid rgba(5, 0, 0, 0.753); 
+    box-shadow: 0 8px 32px rgb(1, 141, 255),
+    inset 0 4px 20px rgb(255, 255, 255);
+     
+}
+.info {
+  display: flex;
+  gap: 30px;
+  background-color: white;
+  border-radius: 5px;
+  position: relative;
+    background: rgba(252, 252, 252, 0.47); /* Semi-transparent background */
+    backdrop-filter: blur(10px) saturate(180%); /* Frosted glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
+    box-shadow: 0 8px 32px rgb(1, 141, 255),
+    inset 0 4px 20px rgba(255, 255, 255, 0.3); /* Depth and glow */
+}
+.profile {
+    background-image: url(/IMG/OIP\ \(1\).webp) ;
+    border: 22px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: black;
+    box-shadow: 0 8px 32px rgb(1, 141, 255),
+
+}
+.ins {
+    font-family:cursive;
+    margin-top: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 25px;  
+    position: relative;
+    padding: 5px 16px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px) saturate(180%);
+    box-shadow:
+    inset -4px -4px 10px rgba(255, 255, 255, 0.6),
+    inset 4px 4px 10px rgba(0, 0, 0, 0.2),
+    0px 8px 20px rgba(31, 38, 135, 0.3);
+    cursor: pointer;
+    overflow: hidden;
+}
+.git {
+    text-decoration: none;
+    margin-left: 0px;
+}
+.p2 {
+    text-decoration: none;
+    margin-left: 0px;
+}
+h3 {
+    padding: 20px;
+}
+.img {
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.text{
+    color:black;
+    font-family: cursive;
+}
+.k {
+    transition-property: width;
+    transition-duration:2s  ;
+    transition-timing-function: case;
+    -o-transition-delay: 0s;   
+}
